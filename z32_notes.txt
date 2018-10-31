@@ -1,0 +1,429 @@
+z32_notes.txt
+
+
+echo "# react-course-2-Budget-app_r-18-07" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:RayBowman2017b/react-course-2-Budget-app_r-18-07.git
+git push -u origin master
+
+git init
+git add .
+git commit -m "2018-10-31 11-00 login and logout soubling"
+git remote add Budget-app-r-18-07 git@github.com:RayBowman2017b/react-course-2-Budget-app_r-18-07.git
+git push -u Budget-app-r-18-07 master
+
+ccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+[HMR] Waiting for update signal from WDS...
+VM220 main.6b5218f8ce327059b9ef.js:54128 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the module builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+CommonJS Modules:
+const firebase = require('firebase/app');
+require('firebase/<PACKAGE>');
+
+ES Modules:
+import firebase from 'firebase/app';
+import 'firebase/<PACKAGE>';
+
+Typescript:
+import * as firebase from 'firebase/app';
+import 'firebase/<PACKAGE>';
+
+./node_modules/firebase/dist/index.cjs.js @ VM220 main.6b5218f8ce327059b9ef.js:54128
+__webpack_require__ @ VM220 main.6b5218f8ce327059b9ef.js:725
+fn @ VM220 main.6b5218f8ce327059b9ef.js:102
+./src/firebase/firebase.js @ VM220 main.6b5218f8ce327059b9ef.js:117553
+__webpack_require__ @ VM220 main.6b5218f8ce327059b9ef.js:725
+fn @ VM220 main.6b5218f8ce327059b9ef.js:102
+./src/actions/expenses.js @ VM220 main.6b5218f8ce327059b9ef.js:116603
+__webpack_require__ @ VM220 main.6b5218f8ce327059b9ef.js:725
+fn @ VM220 main.6b5218f8ce327059b9ef.js:102
+./src/components/AddExpensePage.js @ VM220 main.6b5218f8ce327059b9ef.js:116766
+__webpack_require__ @ VM220 main.6b5218f8ce327059b9ef.js:725
+fn @ VM220 main.6b5218f8ce327059b9ef.js:102
+./src/routers/AppRouter.js @ VM220 main.6b5218f8ce327059b9ef.js:117823
+__webpack_require__ @ VM220 main.6b5218f8ce327059b9ef.js:725
+fn @ VM220 main.6b5218f8ce327059b9ef.js:102
+./src/sec012a_app.js @ VM220 main.6b5218f8ce327059b9ef.js:117976
+__webpack_require__ @ VM220 main.6b5218f8ce327059b9ef.js:725
+fn @ VM220 main.6b5218f8ce327059b9ef.js:102
+0 @ VM220 main.6b5218f8ce327059b9ef.js:118190
+__webpack_require__ @ VM220 main.6b5218f8ce327059b9ef.js:725
+(anonymous) @ VM220 main.6b5218f8ce327059b9ef.js:792
+(anonymous) @ VM220 main.6b5218f8ce327059b9ef.js:795
+log.js:24 [HMR] Waiting for update signal from WDS...
+index.cjs.js:125 
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the module builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+CommonJS Modules:
+const firebase = require('firebase/app');
+require('firebase/<PACKAGE>');
+
+ES Modules:
+import firebase from 'firebase/app';
+import 'firebase/<PACKAGE>';
+
+Typescript:
+import * as firebase from 'firebase/app';
+import 'firebase/<PACKAGE>';
+
+./node_modules/firebase/dist/index.cjs.js @ index.cjs.js:125
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+./src/firebase/firebase.js @ firebase.js:1
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+./src/actions/expenses.js @ main.6b5218f8ce327059b9ef.js?6b5218f8ce327059b9ef:116603
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+./src/components/AddExpensePage.js @ main.6b5218f8ce327059b9ef.js?6b5218f8ce327059b9ef:116766
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+./src/routers/AppRouter.js @ AppRouter.js:1
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+./src/sec012a_app.js @ sec012a_app.js:1
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+0 @ main.6b5218f8ce327059b9ef.js?6b5218f8ce327059b9ef:118190
+__webpack_require__ @ bootstrap:724
+(anonymous) @ bootstrap:791
+(anonymous) @ bootstrap:791
+2VM220 main.6b5218f8ce327059b9ef.js:118022    *** logging in
+2VM220 main.6b5218f8ce327059b9ef.js:115840 [WDS] Hot Module Replacement enabled.
+sec012a_app.js:47    *** logging out
+VM220 main.6b5218f8ce327059b9ef.js:118032    *** logging out
+sec012a_app.js:38    *** logging in
+VM220 main.6b5218f8ce327059b9ef.js:118022    *** logging in
+sec012a_app.js:47    *** logging out
+VM220 main.6b5218f8ce327059b9ef.js:118032    *** logging out
+sec012a_app.js:38    *** logging in
+VM220 main.6b5218f8ce327059b9ef.js:118022    *** logging in
+
+
+
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+ThemedStyleSheet.js:23 Uncaught TypeError: Cannot read property 'createLTR' of undefined
+
+ThemedStyleSheet.js:23 Uncaught TypeError: Cannot read property 'createLTR' of undefined
+    at Object.createLTR (VM177 main.46dbf892059e3ca82579.js:103139)
+    at getStyleDef (VM177 main.46dbf892059e3ca82579.js:103350)
+    at getState (VM177 main.46dbf892059e3ca82579.js:103368)
+    at new WithStyles (VM177 main.46dbf892059e3ca82579.js:103389)
+    at constructClassInstance (VM177 main.46dbf892059e3ca82579.js:91410)
+    at updateClassComponent (VM177 main.46dbf892059e3ca82579.js:93227)
+    at beginWork (VM177 main.46dbf892059e3ca82579.js:94035)
+    at performUnitOfWork (VM177 main.46dbf892059e3ca82579.js:96560)
+    at workLoop (VM177 main.46dbf892059e3ca82579.js:96600)
+    at HTMLUnknownElement.callCallback (VM177 main.46dbf892059e3ca82579.js:79695)
+createLTR @ ThemedStyleSheet.js:23
+getStyleDef @ withStyles.js:129
+getState @ withStyles.js:147
+withStyles(DateRangePicker) @ withStyles.js:168
+constructClassInstance @ VM177 main.46dbf892059e3ca82579.js:91410
+updateClassComponent @ VM177 main.46dbf892059e3ca82579.js:93227
+beginWork @ VM177 main.46dbf892059e3ca82579.js:94035
+performUnitOfWork @ VM177 main.46dbf892059e3ca82579.js:96560
+workLoop @ VM177 main.46dbf892059e3ca82579.js:96600
+callCallback @ VM177 main.46dbf892059e3ca82579.js:79695
+invokeGuardedCallbackDev @ VM177 main.46dbf892059e3ca82579.js:79745
+invokeGuardedCallback @ VM177 main.46dbf892059e3ca82579.js:79802
+replayUnitOfWork @ VM177 main.46dbf892059e3ca82579.js:95912
+renderRoot @ VM177 main.46dbf892059e3ca82579.js:96694
+performWorkOnRoot @ VM177 main.46dbf892059e3ca82579.js:97539
+performWork @ VM177 main.46dbf892059e3ca82579.js:97447
+performSyncWork @ VM177 main.46dbf892059e3ca82579.js:97419
+requestWork @ VM177 main.46dbf892059e3ca82579.js:97307
+scheduleWork @ VM177 main.46dbf892059e3ca82579.js:97112
+scheduleRootUpdate @ VM177 main.46dbf892059e3ca82579.js:97786
+updateContainerAtExpirationTime @ VM177 main.46dbf892059e3ca82579.js:97813
+updateContainer @ VM177 main.46dbf892059e3ca82579.js:97870
+./node_modules/react-dom/cjs/react-dom.development.js.ReactRoot.render @ VM177 main.46dbf892059e3ca82579.js:98132
+legacyRenderSubtreeIntoContainer @ react-dom.development.js:18741
+render @ react-dom.development.js:18783
+renderApp @ sec012a_app.js:27
+(anonymous) @ sec012a_app.js:40
+Promise.then (async)
+(anonymous) @ sec012a_app.js:39
+(anonymous) @ index.cjs.js:1349
+(anonymous) @ index.cjs.js:1453
+Promise.then (async)
+./node_modules/@firebase/util/dist/index.cjs.js.ObserverProxy.sendOne @ index.cjs.js:1450
+./node_modules/@firebase/util/dist/index.cjs.js.ObserverProxy.forEachObserver @ index.cjs.js:1441
+./node_modules/@firebase/util/dist/index.cjs.js.ObserverProxy.next @ index.cjs.js:1348
+(anonymous) @ auth.esm.js:275
+(anonymous) @ auth.esm.js:282
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:188
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:188
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:187
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:187
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+(anonymous) @ auth.esm.js:146
+(anonymous) @ auth.esm.js:142
+Fc @ auth.esm.js:35
+./node_modules/@firebase/auth/dist/auth.esm.js.F.dispatchEvent @ auth.esm.js:33
+fh @ auth.esm.js:125
+./node_modules/@firebase/auth/dist/auth.esm.js.g.vc @ auth.esm.js:123
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Ib @ auth.esm.js:123
+XMLHttpRequest.send (async)
+Zg @ auth.esm.js:121
+./node_modules/@firebase/auth/dist/auth.esm.js.Ch.o @ auth.esm.js:142
+Kh @ auth.esm.js:140
+(anonymous) @ auth.esm.js:146
+A @ auth.esm.js:13
+Qh @ auth.esm.js:146
+(anonymous) @ auth.esm.js:158
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:188
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:188
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:188
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:188
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:188
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:187
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+a.onsuccess @ auth.esm.js:186
+IndexedDB (async)
+(anonymous) @ auth.esm.js:187
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+(anonymous) @ auth.esm.js:13
+d.onsuccess @ auth.esm.js:185
+IndexedDB (async)
+(anonymous) @ auth.esm.js:185
+A @ auth.esm.js:13
+gj @ auth.esm.js:185
+hj @ auth.esm.js:186
+./node_modules/@firebase/auth/dist/auth.esm.js.g.set @ auth.esm.js:187
+(anonymous) @ auth.esm.js:190
+e.g @ auth.esm.js:17
+Fb @ auth.esm.js:20
+Bb @ auth.esm.js:20
+./node_modules/@firebase/auth/dist/auth.esm.js.g.Xb @ auth.esm.js:19
+kb @ auth.esm.js:13
+Promise.then (async)
+hb @ auth.esm.js:13
+gb @ auth.esm.js:13
+Cb @ auth.esm.js:19
+mb @ auth.esm.js:18
+B @ auth.esm.js:14
+oj @ auth.esm.js:190
+Fj @ auth.esm.js:196
+Hj @ auth.esm.js:196
+Nl @ auth.esm.js:256
+Xl @ auth.esm.js:259
+./node_modules/@firebase/auth/dist/auth.esm.js._firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.INTERNAL.extendNamespace.User @ auth.esm.js:315
+./node_modules/@firebase/app/dist/index.cjs.js.FirebaseAppImpl._getService @ index.cjs.js:134
+FirebaseAppImpl.(anonymous function) @ index.cjs.js:323
+(anonymous) @ auth.esm.js:315
+(anonymous) @ index.cjs.js:343
+callAppHooks @ index.cjs.js:336
+initializeApp @ index.cjs.js:267
+./src/firebase/firebase.js @ firebase.js:12
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+./src/actions/expenses.js @ main.46dbf892059e3ca82579.js?46dbf892059e3ca82579:116019
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+./src/components/AddExpensePage.js @ main.46dbf892059e3ca82579.js?46dbf892059e3ca82579:116182
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+./src/routers/AppRouter.js @ AppRouter.js:1
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+./src/sec012a_app.js @ sec012a_app.js:1
+__webpack_require__ @ bootstrap:724
+fn @ bootstrap:101
+0 @ main.46dbf892059e3ca82579.js?46dbf892059e3ca82579:117603
+__webpack_require__ @ bootstrap:724
+(anonymous) @ bootstrap:791
+(anonymous) @ bootstrap:791
+VM177 main.46dbf892059e3ca82579.js:94669 The above error occurred in the <withStyles(DateRangePicker)> component:
+    in withStyles(DateRangePicker)
+    in div
+    in ExpenseListFilters
+    in Connect(ExpenseListFilters)
+    in div
+    in ExpenseDashboardPage
+    in div
+    in component
+    in Route
+    in PrivateRoute
+    in Connect(PrivateRoute)
+    in Switch
+    in div
+    in Router
+    in AppRouter
+    in Provider
+
+

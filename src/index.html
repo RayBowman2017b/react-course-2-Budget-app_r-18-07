@@ -1,0 +1,33 @@
+﻿<!-- index_template.html -->
+
+<!-- template for index.html  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <base href="/" />
+
+    <title>Budget Application</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+
+</head>
+
+<body>
+
+    <div id="sec011_app_01"></div>
+
+    <div id="ID1">This is just something to render.</div>
+
+    <div id="sec010_app_01"></div>
+
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+
+</body>
+</html>
